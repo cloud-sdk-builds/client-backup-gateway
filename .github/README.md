@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-backup-gateway`](https://www.npmjs.com/package/@aws-sdk/client-backup-gateway/v/3.1058.0).
+[`@aws-sdk/client-backup-gateway`](https://www.npmjs.com/package/@aws-sdk/client-backup-gateway/v/3.1059.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-backup-gateway - [https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway](https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway)
-- @aws-sdk/client-backup-gateway v3.1058.0 - [https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway&version=3.1058.0](https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway&version=3.1058.0)
+- @aws-sdk/client-backup-gateway v3.1059.0 - [https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway&version=3.1059.0](https://cloud-sdk-builds.github.io/?sdk=client-backup-gateway&version=3.1059.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1058.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1059.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Gm0sie/ZDiJJf7/uz6I144ors2atZ0tZ+YXWZvxYUX40td1onGYLYa7BeovPNtOq
+sha384-FGAmlc8/NPSWTzI1IOAf1LKA7faYl1L5Y58ggbfRSxyeTwj9wKF4Cqa5mkX/LCKc
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-backup-gateway": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1058.0/index.min.mjs"
+            "@aws-sdk/client-backup-gateway": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1059.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1058.0/index.min.mjs": "sha384-Gm0sie/ZDiJJf7/uz6I144ors2atZ0tZ+YXWZvxYUX40td1onGYLYa7BeovPNtOq"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1059.0/index.min.mjs": "sha384-FGAmlc8/NPSWTzI1IOAf1LKA7faYl1L5Y58ggbfRSxyeTwj9wKF4Cqa5mkX/LCKc"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-backup-gateway": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1058.0/index.min.mjs"
+                        "@aws-sdk/client-backup-gateway": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1059.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1058.0/index.min.mjs": "sha384-Gm0sie/ZDiJJf7/uz6I144ors2atZ0tZ+YXWZvxYUX40td1onGYLYa7BeovPNtOq"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup-gateway@3.1059.0/index.min.mjs": "sha384-FGAmlc8/NPSWTzI1IOAf1LKA7faYl1L5Y58ggbfRSxyeTwj9wKF4Cqa5mkX/LCKc"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1058.0`)
+* Always pin to a specific version (`@3.1059.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-backup-gateway/blob/refs/tags/3.1058.0/LICENSE
+https://github.com/cloud-sdk-builds/client-backup-gateway/blob/refs/tags/3.1059.0/LICENSE
 ```
 
 ---
